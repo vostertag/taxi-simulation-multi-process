@@ -1,0 +1,21 @@
+Les sources du programme se trouvent dans le dossier "src"
+
+Pour changer les demandes et temps d'attente :
+Editer le fichier dans src/data/demandes.dat
+Attention, il est important de respecter la mise en forme en place
+
+Pour lancer l'application, il faut être sous Linux et :
+1. Ouvrir un terminal dans le dossier "src"
+2. Faire la commande "make"
+3. Faire la commande "./launcher N" avec N le nombre de taxis (et donc de processus) qu'on souhaite avoir
+
+Ensuite une fenêtre par taxis s'ouvre ainsi qu'une fenêtre pour la borne avec les demandes.
+
+Pour arrêter l'application :
+Une fois que toutes les demandes ont été traitées, aller sur la fenêtre de la borne.
+Appuyez sur entrée, comme indiqué, pour terminer tous les processus. 
+(Si un processus est en train de prendre en charge une course, il faudra attendre qu'il la termine pour que ce dernier se ferme)
+
+A propos de la queue de message :
+Il ne devrait pas y avoir besoin de la configuer. 
+Sa clé est 1234. Cela peut être modifié dans "src/header/auxiliaire.h"
