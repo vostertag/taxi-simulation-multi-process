@@ -23,7 +23,7 @@ To run the code, use this command, with N being the number of taxis you would li
 Once you ran the code with N taxis, N+1 new terminal will open, one for each process. The process **readData** will read the file where the demands are stored, display them and send them to the other processes in real time. The other processes are simulating taxis that will take each new call if they are available (e.g. if they are not currently driving a client somewhere).  
 
 Here is an example of what it will look like:
-![Alt Text](https://im5.ezgif.com/tmp/ezgif-5-fa08f14623.gif)
+![Alt Text](https://image.ibb.co/byGVM6/taxis.jpg)
 
 On the left is the readData process, sending and displaying the demands. The other processes are the taxis.
 
